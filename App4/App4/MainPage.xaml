@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App4"
+             x:Class="App4.MainPage">
+    <ContentPage Title="one">
+        <StackLayout Spacing="30" Padding="50" VerticalOptions="CenterAndExpand">
+            
+        <Grid Padding="0,0,0,50">
+            <Label  x:Name="label"    Text="Hello World!" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+        </Grid>
+        <Button Clicked="Button_Clicked" Text="=click here" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" />
+        <Entry x:Name="Whatever" Text="enter here" TextColor="Black" BackgroundColor="Blue"></Entry>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="2"></ContentPage>
+
+
+</TabbedPage>
